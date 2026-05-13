@@ -1,3 +1,32 @@
-h1 {
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+/* TODO 1: Element selector — all <p> tags turn red */
+p {
+  color: red;
+}
+
+/* TODO 2: Class selector — all elements with class="note" get font-size 20px */
+.note {
+  font-size: 20px;
+}
+
+/* TODO 3: ID selector — the element with id="id-selector-demo" turns green */
+#id-selector-demo {
   color: green;
+}
+
+/* TODO 4: Attribute selector — <li> elements where value="4" turn blue */
+li[value="4"] {
+  color: blue;
+}
+
+/* TODO 5: Universal selector — every element is centered */
+* {
+  text-align: center;
 }
